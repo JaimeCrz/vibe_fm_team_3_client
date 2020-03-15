@@ -1,53 +1,73 @@
 import React, { Component } from "react";
-import axios from "axios";
+import UserCanSearchSong from "./components/UserCanSearchSong";
+import UserCanSearchArtist from "./components/UserCanSearchArtist";
+import FacebookLogin from "./components/FacebookLogin";
+import LoginForm from "./components/LoginWithAuth";
+import { authenticate } from './modules/authentication'
 
 class App extends Component {
   state = {
-    query: "",
-    song_not_found: {}
+    renderLoginForm: false,
+    authenticated: false,
+    message: ""
+  }
+
+  onChangeHandler = e => {
+    this.setState({ [e.target.name]: e.target.value });
   };
 
-  onSubmitHandler = async e => {
+  onLogin = async e => {
     e.preventDefault();
-    let response = await axios.get("http://localhost:3000/api/v1/tracks", {
-      params: {
-        q: e.target.elements.query.value
-      }
-    });
-
-    if (response.status === 200) {
-      this.setState({
-        tracks: response.data.tracks
-      })
+    const response = await authenticate(
+      e.target.email.value,
+      e.target.password.value
+    );
+    if (response.authenticated) {
+      this.setState({ authenticated: true });
     } else {
-      debugger
-      this.setState({
-        song_not_found: "There is no matches for the song you are trying to search"
-      })
+      this.setState({ message: response.message, renderLoginForm: false });
     }
   };
 
   render() {
+    const { renderLoginForm, authenticated, message } = this.state;
+    let renderLogin;
+    switch(true) {
+      case renderLoginForm && !authenticated:
+        renderLogin = <LoginForm submitFormHandler={this.onLogin} />;
+        break;
+      case !renderLoginForm && !authenticated:
+        renderLogin = (
+          <>
+            <button
+              id="login"
+              onClick={() => this.setState({ renderLoginForm: true })}
+            >
+              Login
+            </button>
+            <p>{message}</p>
+          </>
+        );
+        break;
+      case authenticated:
+        renderLogin = (
+          <p>Hi {JSON.parse(sessionStorage.getItem("credentials")).uid}</p>
+        );
+        break;
+    }
+
     return (
-
       <>
-      <form onSubmit={this.onSubmitHandler}>
-        <input
-          id="search-field"
-          name="query"
-          onChangeHandler={this.onChangeHandler}
-        />
-        
-        <button type="submit" id="search">
-          {" "}
-          Search
-        </button>
-      </form>
-      <div>
+        <div>
+          {renderLogin}
+        </div>
 
-      <p>There is no matches for the song you are trying to search =D. </p>
+        <div>
+          <FacebookLogin />
+        </div>
 
-      </div>
+        {this.state.authenticated === true && <UserCanSearchSong />}
+        {this.state.authenticated === true && <UserCanSearchArtist />}
       </>
     );
   }

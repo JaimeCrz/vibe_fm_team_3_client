@@ -66,3 +66,9 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+Semaphore tokens
+
+[![Build Status](https://semaphoreci.com/api/v1/pierre-1/vibe_fm_team_3_client/branches/pull-request-3/badge.svg)](https://semaphoreci.com/pierre-1/vibe_fm_team_3_client)
+
+[![Build Status](https://semaphoreci.com/api/v1/pierre-1/vibe_fm_team_3_client/branches/pull-request-3/badge.svg)](https://semaphoreci.com/pierre-1/vibe_fm_team_3_client)

@@ -1,0 +1,576 @@
+{
+  "artists": {
+    "href": "https://api.spotify.com/v1/search?query=U2&type=artist&offset=0&limit=20",
+    "items": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/51Blml2LZPmy7TTiAg47vQ"
+        },
+        "followers": {
+          "href": null,
+          "total": 6442560
+        },
+        "genres": ["irish rock", "permanent wave", "rock"],
+        "href": "https://api.spotify.com/v1/artists/51Blml2LZPmy7TTiAg47vQ",
+        "id": "51Blml2LZPmy7TTiAg47vQ",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/e22d5c0c8139b8439440a69854ed66efae91112d",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/40d6c5c14355cfc127b70da221233315497ec91d",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/7293d6752ae8a64e34adee5086858e408185b534",
+            "width": 160
+          }
+        ],
+        "name": "U2",
+        "popularity": 80,
+        "type": "artist",
+        "uri": "spotify:artist:51Blml2LZPmy7TTiAg47vQ"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6PWmQ0UbdvnWqXSp33DzzT"
+        },
+        "followers": {
+          "href": null,
+          "total": 1192
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/6PWmQ0UbdvnWqXSp33DzzT",
+        "id": "6PWmQ0UbdvnWqXSp33DzzT",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273714bc6d6da49a124e3e633cb",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02714bc6d6da49a124e3e633cb",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851714bc6d6da49a124e3e633cb",
+            "width": 64
+          }
+        ],
+        "name": "U2ST",
+        "popularity": 24,
+        "type": "artist",
+        "uri": "spotify:artist:6PWmQ0UbdvnWqXSp33DzzT"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5s3rOzCczqCQrvueHRCZOx"
+        },
+        "followers": {
+          "href": null,
+          "total": 18
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/5s3rOzCczqCQrvueHRCZOx",
+        "id": "5s3rOzCczqCQrvueHRCZOx",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/41050432ca1becfb1fb5642abf85167405632799",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/dff767715143ded92485e53b36f1ecf9939d9c13",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/b8a5fc992ee551f20f0127887b7b8aa40b958a82",
+            "width": 160
+          }
+        ],
+        "name": "U2funnyTJ",
+        "popularity": 1,
+        "type": "artist",
+        "uri": "spotify:artist:5s3rOzCczqCQrvueHRCZOx"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5TucOfYYQ8HPdDdvsQZAZe"
+        },
+        "followers": {
+          "href": null,
+          "total": 651
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/5TucOfYYQ8HPdDdvsQZAZe",
+        "id": "5TucOfYYQ8HPdDdvsQZAZe",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273931ae74e023fcb999dc423a5",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02931ae74e023fcb999dc423a5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851931ae74e023fcb999dc423a5",
+            "width": 64
+          }
+        ],
+        "name": "U2KUSHI",
+        "popularity": 3,
+        "type": "artist",
+        "uri": "spotify:artist:5TucOfYYQ8HPdDdvsQZAZe"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3dhoDqkI6atVLE43nkx8VZ"
+        },
+        "followers": {
+          "href": null,
+          "total": 832
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/3dhoDqkI6atVLE43nkx8VZ",
+        "id": "3dhoDqkI6atVLE43nkx8VZ",
+        "images": [],
+        "name": "LMC vs U2",
+        "popularity": 13,
+        "type": "artist",
+        "uri": "spotify:artist:3dhoDqkI6atVLE43nkx8VZ"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6Yi6ndhYVLUaYu7rEqUCPT"
+        },
+        "followers": {
+          "href": null,
+          "total": 999
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/6Yi6ndhYVLUaYu7rEqUCPT",
+        "id": "6Yi6ndhYVLUaYu7rEqUCPT",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2734dc59f13a52e236c404b8abf",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e024dc59f13a52e236c404b8abf",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048514dc59f13a52e236c404b8abf",
+            "width": 64
+          }
+        ],
+        "name": "U2R",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:6Yi6ndhYVLUaYu7rEqUCPT"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/73MxWtUrBrNHoFiBV7X8sx"
+        },
+        "followers": {
+          "href": null,
+          "total": 208
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/73MxWtUrBrNHoFiBV7X8sx",
+        "id": "73MxWtUrBrNHoFiBV7X8sx",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b27351ded4dc859edd0506ad40a5",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e0251ded4dc859edd0506ad40a5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485151ded4dc859edd0506ad40a5",
+            "width": 64
+          }
+        ],
+        "name": "U2DK",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:73MxWtUrBrNHoFiBV7X8sx"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4CWC85PCLJ0yzPeJYXnQOG"
+        },
+        "followers": {
+          "href": null,
+          "total": 819
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/4CWC85PCLJ0yzPeJYXnQOG",
+        "id": "4CWC85PCLJ0yzPeJYXnQOG",
+        "images": [],
+        "name": "U2 Rocks",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:4CWC85PCLJ0yzPeJYXnQOG"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7eKAlCWcPBFitSkkGzSeOM"
+        },
+        "followers": {
+          "href": null,
+          "total": 388
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/7eKAlCWcPBFitSkkGzSeOM",
+        "id": "7eKAlCWcPBFitSkkGzSeOM",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2738e192210d1b558cd5f1117ee",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e028e192210d1b558cd5f1117ee",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048518e192210d1b558cd5f1117ee",
+            "width": 64
+          }
+        ],
+        "name": "U2da",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:7eKAlCWcPBFitSkkGzSeOM"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5bi7xpKp2mDDSnFfQkBEjR"
+        },
+        "followers": {
+          "href": null,
+          "total": 980
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/5bi7xpKp2mDDSnFfQkBEjR",
+        "id": "5bi7xpKp2mDDSnFfQkBEjR",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2735931f4613d57703ef50ff0e4",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e025931f4613d57703ef50ff0e4",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048515931f4613d57703ef50ff0e4",
+            "width": 64
+          }
+        ],
+        "name": "U21",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:5bi7xpKp2mDDSnFfQkBEjR"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/20sGT1NIki0HVG5NZqROUc"
+        },
+        "followers": {
+          "href": null,
+          "total": 42
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/20sGT1NIki0HVG5NZqROUc",
+        "id": "20sGT1NIki0HVG5NZqROUc",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273f8710b63bbd0ff54248d2c4b",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02f8710b63bbd0ff54248d2c4b",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851f8710b63bbd0ff54248d2c4b",
+            "width": 64
+          }
+        ],
+        "name": "U2Jay",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:20sGT1NIki0HVG5NZqROUc"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4MtRKC7apgAyAd5uUjN3L4"
+        },
+        "followers": {
+          "href": null,
+          "total": 55
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/4MtRKC7apgAyAd5uUjN3L4",
+        "id": "4MtRKC7apgAyAd5uUjN3L4",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273b8ca9830e6849d80b41ef109",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02b8ca9830e6849d80b41ef109",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851b8ca9830e6849d80b41ef109",
+            "width": 64
+          }
+        ],
+        "name": "Zürcher Jugendblasorchester U25",
+        "popularity": 1,
+        "type": "artist",
+        "uri": "spotify:artist:4MtRKC7apgAyAd5uUjN3L4"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6BMzJXRYmy28QVMZc09rGB"
+        },
+        "followers": {
+          "href": null,
+          "total": 9
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/6BMzJXRYmy28QVMZc09rGB",
+        "id": "6BMzJXRYmy28QVMZc09rGB",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273144e44e21df6466ae6fef15a",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02144e44e21df6466ae6fef15a",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851144e44e21df6466ae6fef15a",
+            "width": 64
+          }
+        ],
+        "name": "U2oh",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:6BMzJXRYmy28QVMZc09rGB"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6JfPRNfS0402PWjVo42gAQ"
+        },
+        "followers": {
+          "href": null,
+          "total": 1
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/6JfPRNfS0402PWjVo42gAQ",
+        "id": "6JfPRNfS0402PWjVo42gAQ",
+        "images": [],
+        "name": "U2piw",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:6JfPRNfS0402PWjVo42gAQ"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6w1WPILVc9oKw3tcWYT2xF"
+        },
+        "followers": {
+          "href": null,
+          "total": 14
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/6w1WPILVc9oKw3tcWYT2xF",
+        "id": "6w1WPILVc9oKw3tcWYT2xF",
+        "images": [],
+        "name": "U21",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:6w1WPILVc9oKw3tcWYT2xF"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/41pxPPPxPIjQanWTZ1gT6q"
+        },
+        "followers": {
+          "href": null,
+          "total": 27
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/41pxPPPxPIjQanWTZ1gT6q",
+        "id": "41pxPPPxPIjQanWTZ1gT6q",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273d6ecea1515b71ba09f9c5921",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02d6ecea1515b71ba09f9c5921",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851d6ecea1515b71ba09f9c5921",
+            "width": 64
+          }
+        ],
+        "name": "Babiboi of U2dk Produkshunz",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:41pxPPPxPIjQanWTZ1gT6q"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5V1upZJErBcgcOP9ZHd4Vy"
+        },
+        "followers": {
+          "href": null,
+          "total": 158
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/5V1upZJErBcgcOP9ZHd4Vy",
+        "id": "5V1upZJErBcgcOP9ZHd4Vy",
+        "images": [],
+        "name": "Made famous by U2",
+        "popularity": 15,
+        "type": "artist",
+        "uri": "spotify:artist:5V1upZJErBcgcOP9ZHd4Vy"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4AUTk0qCpRFfimZyOeIeXF"
+        },
+        "followers": {
+          "href": null,
+          "total": 5455
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/4AUTk0qCpRFfimZyOeIeXF",
+        "id": "4AUTk0qCpRFfimZyOeIeXF",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273a5498fb83eec0aec5c40d002",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02a5498fb83eec0aec5c40d002",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851a5498fb83eec0aec5c40d002",
+            "width": 64
+          }
+        ],
+        "name": "U2014",
+        "popularity": 10,
+        "type": "artist",
+        "uri": "spotify:artist:4AUTk0qCpRFfimZyOeIeXF"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7JgPUKQFABI9fZlYIuNJmY"
+        },
+        "followers": {
+          "href": null,
+          "total": 69
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/7JgPUKQFABI9fZlYIuNJmY",
+        "id": "7JgPUKQFABI9fZlYIuNJmY",
+        "images": [],
+        "name": "Karaoke - U2",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:7JgPUKQFABI9fZlYIuNJmY"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7ypJwUskH6rxpPPCDTdV5V"
+        },
+        "followers": {
+          "href": null,
+          "total": 1622
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/7ypJwUskH6rxpPPCDTdV5V",
+        "id": "7ypJwUskH6rxpPPCDTdV5V",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273d6c772f3c916616f01103a0b",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02d6c772f3c916616f01103a0b",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851d6c772f3c916616f01103a0b",
+            "width": 64
+          }
+        ],
+        "name": "U2 Tribute Band",
+        "popularity": 8,
+        "type": "artist",
+        "uri": "spotify:artist:7ypJwUskH6rxpPPCDTdV5V"
+      }
+    ],
+    "limit": 20,
+    "next": "https://api.spotify.com/v1/search?query=U2&type=artist&offset=20&limit=20",
+    "offset": 0,
+    "previous": null,
+    "total": 32
+  }
+}
