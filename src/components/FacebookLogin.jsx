@@ -24,12 +24,11 @@ class FacebookLogin extends Component {
         return (
             <div>
                 <FacebookProvider appId="931150830637424">
-                    <LoginButton
-                        scope="email"
-                        onCompleted={this.handleResponse}
-                    >
-                        <span>Login via Facebook</span>
-                    </LoginButton>
+                  <LoginButton
+                    scope="email"
+                    onCompleted={this.handleResponse}>
+                    <span>Login via Facebook</span>
+                  </LoginButton>
                 </FacebookProvider>
             </div>
         )

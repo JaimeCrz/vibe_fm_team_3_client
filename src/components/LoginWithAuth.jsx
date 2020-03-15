@@ -1,15 +1,22 @@
 import React from "react";
+import TextField from '@material-ui/core/TextField';
+
+
+
 
 const LoginForm = ({ submitFormHandler }) => {
   return (
+
     <form onSubmit={submitFormHandler} id="login-form">
-      <label>Email</label>
-      <input name="email" type="email" id="email"></input>
+      <TextField name="email" type="email" id="email" id="outlined-basic" label="Email" variant="outlined"></TextField>
+      <TextField name="password" type="password" id="password" id="outlined-basic" label="Password" variant="outlined"></TextField>
 
-      <label>Password</label>
-      <input name="password" type="password" id="password"></input>
-
-      <button id="submit">Submit</button>
+      <button id="submit"
+        variant="contained"
+        color="primary"
+        size="large">
+          Submit
+      </button>
     </form>
   );
 };

@@ -4,6 +4,7 @@ import UserCanSearchArtist from "./components/UserCanSearchArtist";
 import FacebookLogin from "./components/FacebookLogin";
 import LoginForm from "./components/LoginWithAuth";
 import { authenticate } from './modules/authentication'
+import Button from '@material-ui/core/Button';
 
 class App extends Component {
   state = {
@@ -39,12 +40,14 @@ class App extends Component {
       case !renderLoginForm && !authenticated:
         renderLogin = (
           <>
-            <button
+            <Button
+              variant="outlined" 
+              color="primary"
               id="login"
               onClick={() => this.setState({ renderLoginForm: true })}
             >
               Login
-            </button>
+            </Button>
             <p>{message}</p>
           </>
         );
