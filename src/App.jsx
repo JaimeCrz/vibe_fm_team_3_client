@@ -3,21 +3,17 @@ import UserCanSearchSong from "./components/UserCanSearchSong";
 import UserCanSearchArtist from "./components/UserCanSearchArtist";
 import FacebookLogin from "./components/FacebookLogin";
 
+
+
 class App extends Component {
   state = {
     tracks: "",
     artists: ""
   }
 
-  checkLoginStatus() {
-    Axios.get("")
-  }
-
   onChangeHandler = e => {
     this.setState({ [e.track.name]: e.track.name });
   };
-
-
 
   render() {
     return (

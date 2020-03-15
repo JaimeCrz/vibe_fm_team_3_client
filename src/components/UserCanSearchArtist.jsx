@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
+import Button from '@material-ui/core/Button';
 
 class UserCanSearchArtist extends Component {
   state = {
@@ -48,9 +49,9 @@ class UserCanSearchArtist extends Component {
       <>
         <form onSubmit={this.onSubmitHandler}>
           <input id="search-field" name="query" />
-          <button type="submit" id="search">
+          <Button variant="contained" color="primary" type="submit" id="search">
             Search Artist
-          </button>
+          </Button>
         </form>
         <div id="output">
           {results}
