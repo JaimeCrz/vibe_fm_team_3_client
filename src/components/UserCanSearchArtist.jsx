@@ -3,7 +3,6 @@ import axios from "axios";
 
 class UserCanSearchArtist extends Component {
   state = {
-    query: ""
   };
 
   onSubmitHandler = async e => {
