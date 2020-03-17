@@ -54,6 +54,7 @@ class App extends Component {
           <p>Hi {JSON.parse(sessionStorage.getItem("credentials")).uid}</p>
         );
         break;
+        debugger
     }
 
     return (
