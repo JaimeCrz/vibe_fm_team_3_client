@@ -5,7 +5,8 @@ import FacebookLogin from "./components/FacebookLogin";
 import LoginForm from "./components/LoginWithAuth";
 import { authenticate } from './modules/authentication'
 import Button from '@material-ui/core/Button';
-
+import Grid from '@material-ui/core/Grid';
+import Paper from '@material-ui/core/Paper';
 
 
 class App extends Component {
@@ -70,9 +71,20 @@ class App extends Component {
         <div>
           <FacebookLogin />
         </div>
-
-        {this.state.authenticated === true && <UserCanSearchSong />}
-        {this.state.authenticated === true && <UserCanSearchArtist />}
+        <div>
+      <Grid container spacing={3}>
+        <Grid item xs={4}>
+          <Paper>
+          {this.state.authenticated === true && <UserCanSearchSong />}
+          </Paper>
+      </Grid>
+        <Grid item xs={4}>
+          <Paper>
+          {this.state.authenticated === true && <UserCanSearchArtist />}
+          </Paper>
+        </Grid>
+        </Grid>
+        </div>
       </>
     );
   }
