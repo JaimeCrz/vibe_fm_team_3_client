@@ -3,7 +3,7 @@ body {
   left: 50%;
   margin-right: -50%;
   position: center;
-  background-image: 'url("src/images/fondo.jpg")';
+  background-image: url(./images/fondo.jpg);
   height: "100vh"
 }
 
