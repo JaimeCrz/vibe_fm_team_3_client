@@ -8,7 +8,6 @@ import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 
-
 class App extends Component {
   state = {
     renderLoginForm: false,
@@ -71,8 +70,8 @@ class App extends Component {
         <div>
           <FacebookLogin />
         </div>
-        <div>
-      <Grid container spacing={3}>
+        <div id='body'>
+      <Grid container spacing={5}>
         <Grid item xs={4}>
           <Paper>
           {this.state.authenticated === true && <UserCanSearchSong />}
