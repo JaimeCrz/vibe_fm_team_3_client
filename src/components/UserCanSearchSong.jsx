@@ -11,7 +11,7 @@ class UserCanSearchSong extends Component {
   onSubmitHandler = async e => {
     try {
       e.preventDefault();
-      let response = await axios.get("http://localhost:3000/api/v1/tracks", {
+      let response = await axios.get("https://vibefmapi.herokuapp.com/api/v1/tracks", {
         params: {
           q: e.target.elements.query.value
         }

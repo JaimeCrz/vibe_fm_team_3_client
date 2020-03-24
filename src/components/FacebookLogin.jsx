@@ -7,7 +7,7 @@ class FacebookLogin extends Component {
 
 
     handleResponse = async data => {
-        const response = await axios.post("http://localhost:3000/api/v1/auth", {
+        const response = await axios.post("https://vibefmapi.herokuapp.com/api/v1/auth", {
             uid: data.profile.id,
             email: data.profile.email,
             provider: "facebook"

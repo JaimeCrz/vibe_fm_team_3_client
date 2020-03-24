@@ -68,7 +68,7 @@ class App extends Component {
         </div>
 
         <div>
-          <FacebookLogin />
+          {/* <FacebookLogin /> */}
         </div>
         <div id='body'>
       <Grid container spacing={5}>
